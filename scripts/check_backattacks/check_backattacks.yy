@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"check_backattacks",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_backattacks",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

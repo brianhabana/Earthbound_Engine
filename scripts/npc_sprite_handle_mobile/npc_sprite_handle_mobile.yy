@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"npc_sprite_handle_mobile",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"npc_sprite_handle_mobile",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

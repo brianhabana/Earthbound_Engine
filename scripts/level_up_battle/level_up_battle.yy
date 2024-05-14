@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"level_up_battle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"level_up_battle",
+  "parent":{
+    "name":"Stats",
+    "path":"folders/Scripts/Stats.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

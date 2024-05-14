@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"start_battle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"start_battle",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

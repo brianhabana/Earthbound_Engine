@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"eqp_boosts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"eqp_boosts",
+  "parent":{
+    "name":"Stats",
+    "path":"folders/Scripts/Stats.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

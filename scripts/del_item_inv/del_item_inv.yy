@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"del_item_inv",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"del_item_inv",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/Scripts/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

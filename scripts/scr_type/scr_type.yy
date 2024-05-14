@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_type",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_type",
+  "parent":{
+    "name":"Dialogs",
+    "path":"folders/Scripts/Dialogs.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"random_choser_extra2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"random_choser_extra2",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

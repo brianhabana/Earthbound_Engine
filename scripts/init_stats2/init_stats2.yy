@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"init_stats2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_stats2",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Init.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

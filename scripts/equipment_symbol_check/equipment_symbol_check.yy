@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"equipment_symbol_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"equipment_symbol_check",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/Scripts/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

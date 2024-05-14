@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"joystick_scripts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joystick_scripts",
+  "parent":{
+    "name":"Gamepad",
+    "path":"folders/Scripts/Tools/Gamepad.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

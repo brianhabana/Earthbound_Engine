@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"player_cure",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_cure",
+  "parent":{
+    "name":"Stats",
+    "path":"folders/Scripts/Stats.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

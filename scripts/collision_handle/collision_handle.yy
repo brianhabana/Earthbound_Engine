@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"collision_handle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"collision_handle",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

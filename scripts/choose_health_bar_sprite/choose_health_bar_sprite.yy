@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"choose_health_bar_sprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"choose_health_bar_sprite",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

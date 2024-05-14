@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_odometer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_odometer",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

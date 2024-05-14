@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"fire_damage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fire_damage",
+  "parent":{
+    "name":"Damage",
+    "path":"folders/Scripts/Battle/Damage.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

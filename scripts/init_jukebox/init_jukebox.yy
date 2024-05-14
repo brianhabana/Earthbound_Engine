@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"init_jukebox",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_jukebox",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Init.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

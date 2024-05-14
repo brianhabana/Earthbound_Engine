@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"window_resize_and_center",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"window_resize_and_center",
+  "parent":{
+    "name":"Tools",
+    "path":"folders/Scripts/Tools.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

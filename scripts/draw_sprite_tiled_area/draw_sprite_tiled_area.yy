@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_sprite_tiled_area",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_sprite_tiled_area",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

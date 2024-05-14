@@ -1,0 +1,23 @@
+{
+  "$GMPath":"",
+  "%Name":"p_shake",
+  "closed":false,
+  "kind":1,
+  "name":"p_shake",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Paths/Battle.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":42.0,"y":208.0,},
+    {"speed":100.0,"x":52.0,"y":208.0,},
+    {"speed":100.0,"x":32.0,"y":208.0,},
+    {"speed":100.0,"x":62.0,"y":208.0,},
+    {"speed":100.0,"x":20.0,"y":208.0,},
+    {"speed":100.0,"x":62.0,"y":208.0,},
+    {"speed":100.0,"x":42.0,"y":208.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

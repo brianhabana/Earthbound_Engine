@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"init_skill_definitions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_skill_definitions",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Init.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

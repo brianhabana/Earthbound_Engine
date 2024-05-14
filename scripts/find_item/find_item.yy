@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"find_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_item",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/Scripts/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

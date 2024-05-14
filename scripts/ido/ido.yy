@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ido",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ido",
+  "parent":{
+    "name":"Tools",
+    "path":"folders/Scripts/Tools.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

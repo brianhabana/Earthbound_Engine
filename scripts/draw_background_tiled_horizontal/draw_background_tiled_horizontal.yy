@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_background_tiled_horizontal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_background_tiled_horizontal",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

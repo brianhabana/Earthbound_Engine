@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"start_cutscene",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"start_cutscene",
+  "parent":{
+    "name":"Overworld",
+    "path":"folders/Scripts/Overworld.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

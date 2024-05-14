@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"get_flag",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_flag",
+  "parent":{
+    "name":"Tools",
+    "path":"folders/Scripts/Tools.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"write_line",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"write_line",
+  "parent":{
+    "name":"Tools",
+    "path":"folders/Scripts/Tools.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

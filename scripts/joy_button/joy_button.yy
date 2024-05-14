@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"joy_button",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joy_button",
+  "parent":{
+    "name":"Gamepad",
+    "path":"folders/Scripts/Tools/Gamepad.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ini_save_data",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_save_data",
+  "parent":{
+    "name":"Tools",
+    "path":"folders/Scripts/Tools.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
