@@ -1,18 +1,18 @@
-    if keyboard_check_pressed(vk_down) {
+    if input_check_pressed("down") {
         if cursor_y = _y[1] { cursor_y = _y[2] }
         else if cursor_y = _y[2] { cursor_y = _y[3] }
         else if cursor_y = _y[3] { cursor_y = _y[4] }
         else if cursor_y = _y[4] { cursor_y = _y[1] }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         if cursor_y = _y[1] { cursor_y = _y[4] }
         else if cursor_y = _y[2] { cursor_y = _y[1] }
         else if cursor_y = _y[3] { cursor_y = _y[2] }
         else if cursor_y = _y[4] { cursor_y = _y[3] }
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         if cursor_x = _x[1] { cursor_x = _x[2] }
         else if cursor_x = _x[2] { cursor_x = _x[3] }
         else if cursor_x = _x[3] { cursor_x = _x[1] }
-    } else if keyboard_check_pressed(vk_left){
+    } else if input_check_pressed("left"){
         if cursor_x = _x[1] { cursor_x = _x[3] }
         else if cursor_x = _x[2]  { cursor_x = _x[1] }
         else if cursor_x = _x[3] { cursor_x = _x[2] }
@@ -144,3 +144,4 @@
     cursor_timer = 0
     }
 
+show_debug_message("objBattleBgEditor");

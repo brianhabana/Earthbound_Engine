@@ -40,7 +40,7 @@ if !in_battle {
 
 ///Keyboard controls
 if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or global.s_solid[_turn]){
-    if keyboard_check_pressed(global.kb_back) {
+    if input_check_pressed("cancel") {
         switch _turn {
             case 2:
                 if !global.dead[1] and !global.s_asleep[1] and !global.s_solid[1]{ 
@@ -67,7 +67,7 @@ if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or globa
         cursor_x = _x[1]
         cursor_y = _y[1]
         audio_play_sound(sndback,0,0); 
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         audio_play_sound(sndchoose,0,0)
         if cursor_y = _y[1] {
             if cursor_x = _x[1] {
@@ -142,7 +142,7 @@ if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or globa
                 }
             }
         }
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         if cursor_x = _x[1] {
             //if /*_turn !=1 or*/ cursor_y = _y[2] {
             //    cursor_x = _x[2]
@@ -155,7 +155,7 @@ if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or globa
             cursor_x = _x[2]
         }
         audio_play_sound(sndselect,0,0)
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         if cursor_y = _y[1] {
             //if cursor_x != _x[3] {
                 cursor_y = _y[2]
@@ -164,7 +164,7 @@ if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or globa
             cursor_y = _y[1]
         }
         audio_play_sound(sndselect2,0,0)
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         if cursor_x = _x[1] {
             cursor_x = _x[2]
         } else if cursor_x = _x[2] {
@@ -177,7 +177,7 @@ if !in_battle and ok and !(global.dead[_turn] or global.s_asleep[_turn] or globa
             cursor_x = _x[1]
         }
         audio_play_sound(sndselect,0,0)
-    } else if keyboard_check_pressed(vk_down) {
+    } else if input_check_pressed("down") {
         if cursor_y = _y[1] {
             //if cursor_x != _x[3] {
                 cursor_y = _y[2]
@@ -253,5 +253,6 @@ if !no_special[_turn] {
     label_special[_turn] = "////";
 }
 
+show_debug_message("objBattleController");
 /* */
 /*  */

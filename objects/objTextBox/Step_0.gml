@@ -6,7 +6,7 @@ if cursor_timer = 1 {
 }
 
 // Show the next message or close the box
-if keyboard_check_pressed(global.kb_choose) {
+if input_check_pressed("accept") {
     if string_length(display_string) = string_length(str[message_display]) or stop {
         if message_display != strno {
             stop = 0
@@ -28,7 +28,7 @@ if keyboard_check_pressed(global.kb_choose) {
 }
 
 // Show all the text at once
-if keyboard_check_pressed(global.kb_back) {
+if input_check_pressed("cancel") {
     str[message_display] = string_replace(str[message_display],"{","")
     display_string = str[message_display]
     stop = 1
@@ -56,3 +56,4 @@ if string_length(display_string) != string_length(str[message_display]) and !sto
     }
 }
 
+show_debug_message("objTextBox");

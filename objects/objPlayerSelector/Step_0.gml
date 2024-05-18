@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_back) {
+    if input_check_pressed("cancel") {
         if instance_exists(objBattleInv) {
             with objBattleInv { alarm[0] = 1 }
             global.itemtouse[objBattleController._turn] = -1
@@ -11,7 +11,7 @@ if ok {
         }
         audio_play_sound(sndback,0,0)
         instance_destroy();
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         global.target[objBattleController._turn] = tgt;
         if objBattleController._turn > global.pl_count-1 {
             with objTurnMaster { event_user(2) }
@@ -24,7 +24,7 @@ if ok {
         with objSkillsMenu { instance_destroy() }
         audio_play_sound(sndchoose,0,0)
         instance_destroy();
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         if global.pl_count = 2 {
             if tgt = 1 { tgt = 2 }
             else { tgt = 1 }   
@@ -40,7 +40,7 @@ if ok {
         }
     
         audio_play_sound(sndselect,0,0)
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         if global.pl_count = 2 {
             if tgt = 1 { tgt = 2 }
             else { tgt = 1 }   
@@ -64,3 +64,4 @@ for (var i=1;i<global.pl_count+1;i++) {
 }
 global.healthbar[tgt].y -= 8
 
+show_debug_message("objPlayerSelector");

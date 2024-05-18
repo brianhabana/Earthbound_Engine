@@ -1,10 +1,10 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_back) {
+    if input_check_pressed("cancel") {
         with objBattleController { ok = 1 }
         audio_play_sound(sndback,0,0)
         instance_destroy();
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         if num !=0 {
             if global.item[num,3] != "" {
                 audio_play_sound(sndchoose,0,0)
@@ -34,7 +34,7 @@ if ok {
                 audio_play_sound(snderror,0,0)
             }
         }
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         audio_play_sound(sndselect,0,0)
         if cursor_x = _x[2]
         {
@@ -44,7 +44,7 @@ if ok {
         {
         cursor_x = _x[2]
         }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1] {
             if page == 1 {
@@ -63,7 +63,7 @@ if ok {
         } else if cursor_y = _y[5] {
             cursor_y = _y[4]
         }
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         audio_play_sound(sndselect,0,0)
         if cursor_x = _x[1]
         {
@@ -73,7 +73,7 @@ if ok {
         {
         cursor_x = _x[1]
         }
-    } else if keyboard_check_pressed(vk_down) {
+    } else if input_check_pressed("down") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1] {
             cursor_y = _y[2]
@@ -115,3 +115,5 @@ if cursor_x = _x[1] and cursor_y = _y[4] { num = (inv[7]>0 ? inv[7] : 0);   num_
 if cursor_x = _x[2] and cursor_y = _y[4] { num = (inv[8]>0 ? inv[8] : 0);   num_val = 7+10*page-10 }
 if cursor_x = _x[1] and cursor_y = _y[5] { num = (inv[9]>0 ? inv[9] : 0);   num_val = 8+10*page-10 }
 if cursor_x = _x[2] and cursor_y = _y[5] { num = (inv[10]>0 ? inv[10] : 0); num_val = 9+10*page-10 }
+
+show_debug_message("objBattleInv");

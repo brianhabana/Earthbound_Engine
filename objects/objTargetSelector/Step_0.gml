@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_back) {
+    if input_check_pressed("cancel") {
         if global.enemy[1] != 0 { global.enemy[1].visible = 1 }
         if global.enemy[2] != 0 { global.enemy[2].visible = 1 }
         if global.enemy[3] != 0 { global.enemy[3].visible = 1 }
@@ -16,7 +16,7 @@ if ok {
         ok = 0
         audio_play_sound(sndback,0,0)
         instance_destroy();
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         if global.enemy[1] != 0 { global.enemy[1].visible = 1 }
         if global.enemy[2] != 0 { global.enemy[2].visible = 1 }
         if global.enemy[3] != 0 { global.enemy[3].visible = 1 }
@@ -35,7 +35,7 @@ if ok {
         ok = 0
         audio_play_sound(sndchoose,0,0)
         instance_destroy();
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         if global.enemy[1] != 0 { global.enemy[1].visible = 1 }
         if global.enemy[2] != 0 { global.enemy[2].visible = 1 }
         if global.enemy[3] != 0 { global.enemy[3].visible = 1 }
@@ -68,7 +68,7 @@ if ok {
         }
     
         audio_play_sound(sndselect,0,0)
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         if global.enemy[1] != 0 { global.enemy[1].visible = 1 }
         if global.enemy[2] != 0 { global.enemy[2].visible = 1 }
         if global.enemy[3] != 0 { global.enemy[3].visible = 1 }
@@ -112,3 +112,4 @@ if ok {
 //blink++
 //if blink > 1 {blink = 0}
 
+show_debug_message("objTargetSelector");
