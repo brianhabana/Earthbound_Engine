@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_q) {
+    if input_check_pressed("action") {
         audio_play_sound(sndselect,0,0)    
         switch global.pl_count {
             case 0: 
@@ -25,7 +25,7 @@ if ok {
                 break;
         }
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_w) {
+    } else if input_check_pressed("special") {
         audio_play_sound(sndselect,0,0)
         switch global.pl_count {
             case 0: 
@@ -50,7 +50,7 @@ if ok {
                 break;
         }
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("cancel") {
         audio_play_sound(sndback,0,0)
         with objInGameMenu {alarm[0] = 1}
         global.current_inv = 0
@@ -59,3 +59,4 @@ if ok {
     }
 }
 
+show_debug_message("objStatsMenu");

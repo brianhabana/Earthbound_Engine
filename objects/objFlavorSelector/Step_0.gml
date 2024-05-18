@@ -1,16 +1,16 @@
 /// @description Keyboard controls
 
-if keyboard_check_pressed(global.kb_back) {
+if input_check_pressed("cancel") {
     audio_play_sound(sndback,0,0)
     objNewGame.alarm[0] = 1
     global.flavor = 0
     instance_destroy()
-} else if keyboard_check_pressed(global.kb_choose) {
+} else if input_check_pressed("accept") {
     audio_play_sound(sndchoose,0,0)
     global.theroom = rmNaming
     instance_create(0,0,objFadeOut)
     instance_destroy()
-} else if keyboard_check_pressed(vk_up) {
+} else if input_check_pressed("up") {
     audio_play_sound(sndselect2,0,0)
     if cursor_y = _y[1] {
         cursor_y = _y[3]
@@ -22,7 +22,7 @@ if keyboard_check_pressed(global.kb_back) {
         cursor_y = _y[2]
         global.gender = 1
     }
-} else if keyboard_check_pressed(vk_down) {
+} else if input_check_pressed("down") {
     audio_play_sound(sndselect2,0,0)
     if cursor_y = _y[1] {
         cursor_y = _y[2]
@@ -44,4 +44,6 @@ if cursor_timer = 1
 cursor_image_index +=1
 cursor_timer = 0
 }
+show_debug_message("objFlavorSelector");
+
 

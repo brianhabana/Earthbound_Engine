@@ -1,5 +1,5 @@
 if ok {
-    if keyboard_check_pressed(vk_down) {
+    if input_check_pressed("down") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = y1 { cursor_y = y2 }
         else if cursor_y = y2 { cursor_y = y3 }
@@ -8,7 +8,7 @@ if ok {
         else if cursor_y = y5 { cursor_y = y1 }
         //else if cursor_y = y5 { cursor_y = iff(can_use_log,y6,y1) }
         //else if cursor_y = y6 { cursor_y = y1 }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = y1 { cursor_y = y5 } //if cursor_y = y1 { cursor_y = iff(can_use_log,y6,y5) }
         else if cursor_y = y2 { cursor_y = y1 }
@@ -18,7 +18,7 @@ if ok {
         else if cursor_y = y6 { cursor_y = y5 }
     }
     
-    if keyboard_check_pressed(global.kb_back) or keyboard_check_pressed(global.kb_enter) {
+    if input_check_pressed("cancel") or keyboard_check_pressed(global.kb_enter) {
         keyboard_clear(global.kb_back)
         keyboard_clear(global.kb_enter)
         with objAilmentsBubble instance_destroy()
@@ -28,7 +28,7 @@ if ok {
         instance_destroy()
     }
 
-    if keyboard_check_pressed(global.kb_choose) {
+    if input_check_pressed("accept") {
         keyboard_clear(global.kb_choose)
         if cursor_y = y1 {
             audio_play_sound(sndchoose,0,0)
@@ -80,5 +80,6 @@ cursor_image_index +=1
 cursor_timer = 0
 }
 
+show_debug_message("objInGameMenu");
 /* */
 /*  */

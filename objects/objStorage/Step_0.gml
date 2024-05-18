@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if (keyboard_check_pressed(vk_left)) {
+    if (input_check_pressed("eft")) {
         audio_play_sound(sndselect,0,0)
         if cursor_x = _x[2]
         {
@@ -10,7 +10,7 @@ if ok {
         {
         cursor_x = _x[2]
         }
-    } else if (keyboard_check_pressed(vk_right)){
+    } else if (input_check_pressed("right")){
         audio_play_sound(sndselect,0,0)
         if cursor_x = _x[1]
         {
@@ -20,7 +20,7 @@ if ok {
         {
         cursor_x = _x[1]
         }
-    } else if (keyboard_check_pressed(vk_down)){
+    } else if (input_check_pressed("down")){
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1]
         {
@@ -64,7 +64,7 @@ if ok {
         page++
         event_user(0)
         }
-    } else if (keyboard_check_pressed(vk_up)){
+    } else if (input_check_pressed("up")){
         audio_play_sound(sndselect2,0,0)
 
         if cursor_y = _y[1]
@@ -111,7 +111,7 @@ if ok {
         {
         cursor_y = _y[9]
         }
-    } else if (keyboard_check_pressed(global.kb_choose)){
+    } else if (input_check_pressed("accept")){
         if !is_undefined(num) and global.pl_count != 0 {
             audio_play_sound(sndchoose,0,0)
             keyboard_clear(global.kb_choose)
@@ -126,7 +126,7 @@ if ok {
             }
             instance_destroy()
         }
-    } else if (keyboard_check_pressed(global.kb_back)){
+    } else if (input_check_pressed("cancel")){
         object.item = 0;
         audio_play_sound(sndback,0,0)
         instance_destroy()
@@ -167,3 +167,4 @@ if cursor_x = _x[2] and cursor_y = _y[9] { num = storage[18]; num_val = 17; }
 if cursor_x = _x[1] and cursor_y = _y[10] { num = storage[19]; num_val = 18; }
 if cursor_x = _x[2] and cursor_y = _y[10] { num = storage[20]; num_val = 19; }
 
+show_debug_message("objStorage");

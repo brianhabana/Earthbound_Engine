@@ -2,7 +2,7 @@
 equipment_symbol_check()
 
 if ok {
-    if keyboard_check_pressed(vk_left) {
+    if input_check_pressed("left") {
         audio_play_sound(sndselect,0,0)
 
         if cursor_x = _x[2]
@@ -13,7 +13,7 @@ if ok {
         {
         cursor_x = _x[2]
         }
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         audio_play_sound(sndselect,0,0)
         if cursor_x = _x[1]
         {
@@ -23,7 +23,7 @@ if ok {
         {
         cursor_x = _x[1]
         }
-    } else if keyboard_check_pressed(vk_down){
+    } else if input_check_pressed("down"){
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1]
         {
@@ -65,7 +65,7 @@ if ok {
         {
         cursor_y = _y[1]
         }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1]
         {
@@ -107,7 +107,7 @@ if ok {
         {
         cursor_y = _y[9]
         }
-    } else if keyboard_check_pressed(global.kb_q) {
+    } else if input_check_pressed("action") {
         audio_play_sound(sndselect,0,0)    
     
         switch global.pl_count {
@@ -137,7 +137,7 @@ if ok {
         }
         
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_w) {
+    } else if input_check_pressed("special") {
         audio_play_sound(sndselect,0,0)
         
         switch global.pl_count {
@@ -167,7 +167,7 @@ if ok {
         }
         
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         if global.current_inv < 4 {
             if !is_undefined(num) and ok and global.pl_count != 0 { //and !global.dead[global.current_inv+1] {
                 ok = 0
@@ -213,7 +213,7 @@ if ok {
                 }
             }
         }
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("cancel") {
         if instance_exists(objInGameMenu) {
             objHealthBar.visible = 1
             objAilmentsBubble.visible = 1
@@ -261,4 +261,6 @@ if cursor_timer = 1
 cursor_image_index +=1
 cursor_timer = 0
 }
+
+show_debug_message("obj_inv");
 

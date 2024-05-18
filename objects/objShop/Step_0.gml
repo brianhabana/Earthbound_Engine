@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_q) {
+    if input_check_pressed("action") {
         audio_play_sound(sndselect,0,0)    
         switch global.pl_count {
             case 0: 
@@ -25,7 +25,7 @@ if ok {
                 break;
         }
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_w) {
+    } else if input_check_pressed("special") {
         audio_play_sound(sndselect,0,0)
         switch global.pl_count {
             case 0: 
@@ -50,12 +50,12 @@ if ok {
                 break;
         }
         event_user(0)
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("cancel") {
         object.happy = bought;
         global.current_inv = 0
         audio_play_sound(sndback,0,0)
         instance_destroy()
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         if num !=0 and global.pl_count != 0 {
             keyboard_clear(global.kb_choose)
             if (item_exists_at_slot(global.current_inv,19)) or (global.money < global.item[num,19]) {
@@ -68,7 +68,7 @@ if ok {
                 }
             }
         }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1] {
             cursor_y = _y[10]
@@ -103,7 +103,7 @@ if ok {
             if (shop_items > 8) { num = global.shop[shop_index,8] } else { num = 0 }
         }
         event_user(0)
-    } else if keyboard_check_pressed(vk_down) {
+    } else if input_check_pressed("down") {
         audio_play_sound(sndselect2,0,0)
         if cursor_y = _y[1]{
             cursor_y = _y[2]
@@ -147,6 +147,7 @@ if cursor_timer = 1
 cursor_image_index +=1
 cursor_timer = 0
 }
+show_debug_message("objShop");
 
 
 

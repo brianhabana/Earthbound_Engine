@@ -29,3 +29,4 @@ if string_length(the_string) = 0 {
     dontcareindex = 0
 }
 
+show_debug_message("objNaming");

@@ -1,16 +1,16 @@
 /// @description Keyboard controls
 if ok {
-    if (keyboard_check_pressed(vk_left)) {
+    if (input_check_pressed("left")) {
         if mode = 2 {
             audio_play_sound(sndselect,0,0)
             if cursor_x = _x[3] { cursor_x = _x[4] } else { cursor_x = _x[3] }
         }
-    } else if (keyboard_check_pressed(vk_right)){
+    } else if (input_check_pressed("right")){
         if mode = 2 {
             audio_play_sound(sndselect,0,0)
             if cursor_x = _x[3] { cursor_x = _x[4] } else { cursor_x = _x[3] }
         }
-    } else if (keyboard_check_pressed(vk_down)){
+    } else if (input_check_pressed("down")){
         audio_play_sound(sndselect2,0,0)
         switch mode {
             case 0:
@@ -39,7 +39,7 @@ if ok {
                 }
                 break;
         }
-    } else if (keyboard_check_pressed(vk_up)){
+    } else if (input_check_pressed("up")){
         audio_play_sound(sndselect2,0,0)
         switch mode {
             case 0:
@@ -68,7 +68,7 @@ if ok {
                 }
                 break;
         }
-    } else if (keyboard_check_pressed(global.kb_choose)){
+    } else if (input_check_pressed("accept")){
         ok = 0
         audio_play_sound(sndchoose,0,0)
         
@@ -232,7 +232,7 @@ if ok {
                 }
                 break;
         }
-    } else if (keyboard_check_pressed(global.kb_back)){
+    } else if (input_check_pressed("cancel")){
         ok = 0
         audio_play_sound(sndback,0,0)
         switch mode {
@@ -261,4 +261,5 @@ if cursor_timer = 1
 cursor_image_index +=1
 cursor_timer = 0
 }
+show_debug_message("objInvUseMenu");
 

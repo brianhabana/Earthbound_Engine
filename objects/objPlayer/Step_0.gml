@@ -2,8 +2,8 @@
 depth = -y
 
 // Calculate the change in x and y based on controller input
-dx = input_check("right") - input_check("left");
-dy = input_check("down") - input_check("up");
+dx = (input_check("right") - input_check("left"));
+dy = (input_check("down") - input_check("up"));
 
 // Debug messages to show the calculated dx and dy values
 show_debug_message("dx: " + string(dx));
@@ -78,7 +78,7 @@ if canmove = 1 {
         image_index = 0
     }
 	
-	if keyboard_check_pressed(global.kb_enter) and !instance_exists(obj_inv) and !instance_exists(objStorage) and room != rmGameOver {
+	if input_check_pressed("action") and !instance_exists(obj_inv) and !instance_exists(objStorage) and room != rmGameOver {
 		instance_create(0,0,objInGameMenu);
 		speed = 0
 		image_index = 0
@@ -123,7 +123,7 @@ if !ladder {
 
 audio_listener_position(x, y, 0);
 
-if keyboard_check_pressed(global.kb_choose) and canmove and !instance_exists(obj_inv) and !instance_exists(objStorage)  {
+if input_check_pressed("accept") and canmove and !instance_exists(obj_inv) and !instance_exists(objStorage)  {
     var npc, angle, box;
     if distance_to_object(objNPCExtender) < 12 {
         npc = instance_nearest(x,y,objNPCExtender).link

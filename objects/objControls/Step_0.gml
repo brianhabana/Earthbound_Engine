@@ -1,19 +1,19 @@
 /// @description Keyboard controls
 if !wait and ok != 2 {
-    if keyboard_check_pressed(vk_down) {
+    if input_check_pressed("down") {
         menuSelected[menuPage]++;
         if (menuSelected[menuPage] > menuText[menuPage,0]) { menuSelected[menuPage] = 1; }
         menuSelected[!menuPage] = menuSelected[menuPage];
         audio_play_sound(sndselect2,0,0)
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         menuSelected[menuPage] -=1;
         if (menuSelected[menuPage] < 1) { menuSelected[menuPage] = menuText[menuPage,0]; }
         menuSelected[!menuPage] = menuSelected[menuPage];
         audio_play_sound(sndselect2,0,0)
-    } else if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("left") or input_check_pressed("right") {
         menuPage = !menuPage;
         audio_play_sound(sndselect,0,0)
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         audio_play_sound(sndchoose,0,0)
         if (menuSelected[menuPage] == 1) { 
             waiting[menuPage,1] = 1
@@ -41,7 +41,7 @@ if !wait and ok != 2 {
             global.theroom = rmMenu
             instance_create(0,0,objFadeOut)
         }
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("back") {
         audio_play_sound(sndback,0,0)
         ok = 2;
         global.theroom = rmMenu
@@ -239,5 +239,6 @@ if wait and ok {
     }
 }
 
+show_debug_message("objControls");
 
 

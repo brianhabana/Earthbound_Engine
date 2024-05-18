@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if (keyboard_check_pressed(vk_left)) {
+    if (input_check_pressed("left")) {
         audio_play_sound(sndselect,0,0)
         if !mode {
             if cursor_x = _x[1] { cursor_x = _x[3] } 
@@ -9,7 +9,7 @@ if ok {
             if cursor_x = _x[2]-3 { cursor_x = _x[1]-3 }
             else if cursor_x = _x[1]-3 { cursor_x = _x[2]-3 }
         }
-    } else if (keyboard_check_pressed(vk_right)){
+    } else if (input_check_pressed("right")){
         audio_play_sound(sndselect,0,0)
         if !mode {
             if cursor_x = _x[1] { cursor_x = _x[3] } 
@@ -18,7 +18,7 @@ if ok {
             if cursor_x = _x[1]-3 { cursor_x = _x[2]-3 } 
             else if cursor_x = _x[2]-3 { cursor_x = _x[1]-3 }
         }
-    } else if (keyboard_check_pressed(vk_down)){
+    } else if (input_check_pressed("down")){
         audio_play_sound(sndselect2,0,0)
         if mode = 1 {
             if cursor_y = _y[1]+8
@@ -83,7 +83,7 @@ if ok {
             emode = 0
             }
         }
-    } else if (keyboard_check_pressed(vk_up)){
+    } else if (input_check_pressed("up")){
         audio_play_sound(sndselect2,0,0)
         if mode = 1 {
             if cursor_y = _y[1]+8
@@ -148,7 +148,7 @@ if ok {
             emode = 2
             }
         }
-    } else if (keyboard_check_pressed(global.kb_q)){
+    } else if (input_check_pressed("action")){
         if mode = 0 {
             audio_play_sound(sndselect,0,0)    
             switch global.pl_count {
@@ -175,7 +175,7 @@ if ok {
             }
             event_user(0)
         }
-    } else if (keyboard_check_pressed(global.kb_w)){
+    } else if (input_check_pressed("special")){
         if mode = 0{
             audio_play_sound(sndselect,0,0)
             switch global.pl_count {
@@ -202,7 +202,7 @@ if ok {
             }
             event_user(0)
         }
-    } else if (keyboard_check_pressed(global.kb_choose)){
+    } else if (input_check_pressed("accept")){
         if mode = 0 {
             audio_play_sound(sndchoose,0,0)
             if cursor_x != _x[3] {
@@ -257,7 +257,7 @@ if ok {
                 }
             }
         }
-    } else if (keyboard_check_pressed(global.kb_back)){
+    } else if (input_check_pressed("cancel")){
         audio_play_sound(sndback,0,0)
         if mode = 0 {
             objHealthBar.visible = 1
@@ -314,3 +314,4 @@ cursor_timer = 0
     if cursor_x = _x[2]-3 and cursor_y = _y[10]+8 { num = (inv[20]>0 ? inv[20] : 0); num_val = 19; }
     current_inv1 = global.current_inv+1
 
+show_debug_message("objEqp");

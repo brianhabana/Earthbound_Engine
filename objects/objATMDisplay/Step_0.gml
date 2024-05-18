@@ -1,10 +1,10 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_back) {
+    if input_check_pressed("cancel") {
         audio_play_sound(sndback,0,0)
         object.money = 0
         instance_destroy()
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         audio_play_sound(sndchoose,0,0)
         for (var i=0;i<10;i++) {
             sum+= power(10,i)*number[i]
@@ -24,16 +24,16 @@ if ok {
         
         object.money = min_sum
         instance_destroy()
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         audio_play_sound(sndselect,0,0)
         if place = 9 { place = 0 } else { place++ }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if number[place] = 9 { number[place] = 0 } else { number[place]++ }
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         audio_play_sound(sndselect,0,0)
         if place = 0 { place = 9 } else { place-- }
-    } else if keyboard_check_pressed(vk_down) {
+    } else if input_check_pressed("down") {
         audio_play_sound(sndselect2,0,0)
         if number[place] = 0 { number[place] = 9 } else { number[place]-- }
     }
@@ -47,5 +47,6 @@ cursor_image_index +=1
 cursor_timer = 0
 }
 
+show_debug_message("objATMDisplay");
 
 

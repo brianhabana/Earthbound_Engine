@@ -1,6 +1,6 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(global.kb_q) {
+    if input_check_pressed("action") {
         if mode !=2 {
             audio_play_sound(sndselect,0,0)    
             switch global.pl_count {
@@ -31,7 +31,7 @@ if ok {
             cursor_y = _y[1]
             event_user(0)
         }
-    } else if keyboard_check_pressed(global.kb_w) {
+    } else if input_check_pressed("special") {
         if mode !=2 {
             audio_play_sound(sndselect,0,0)
             switch global.pl_count {
@@ -62,7 +62,7 @@ if ok {
             cursor_y = _y[1]
             event_user(0)
         }
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("cancel") {
         audio_play_sound(sndback,0,0)
         if mode = 0 {
             with objInGameMenu {alarm[0] = 1}
@@ -82,7 +82,7 @@ if ok {
             cursor_x = _x[3]
             cursor_y = _y[1]
         }
-    } else if keyboard_check_pressed(global.kb_choose) {
+    } else if input_check_pressed("accept") {
         if num !=0 {
             if mode = 0 {
                 ok = 0
@@ -143,7 +143,7 @@ if ok {
                 }
             }
         }
-    } else if keyboard_check_pressed(vk_left) {
+    } else if input_check_pressed("left") {
         audio_play_sound(sndselect,0,0)
         if mode = 1 {
             if global.psiuser[global.current_inv+1] or psimode = 3 {
@@ -164,7 +164,7 @@ if ok {
                 }
             }
         }
-    } else if keyboard_check_pressed(vk_up) {
+    } else if input_check_pressed("up") {
         audio_play_sound(sndselect2,0,0)
         if mode = 0 {
             if global.psiuser[global.current_inv+1] {
@@ -239,7 +239,7 @@ if ok {
                     break;
             }
         }
-    } else if keyboard_check_pressed(vk_right) {
+    } else if input_check_pressed("right") {
         audio_play_sound(sndselect,0,0)
         if mode = 1 {
             if global.psiuser[global.current_inv+1] or psimode = 3 {
@@ -260,7 +260,7 @@ if ok {
                 }
             }
         } 
-    } else if keyboard_check_pressed(vk_down) {
+    } else if input_check_pressed("down") {
         audio_play_sound(sndselect2,0,0)
         if mode = 0 {
             if global.psiuser[global.current_inv+1] {
@@ -373,6 +373,8 @@ if mode = 1 {
         }
     }
 } 
+show_debug_message("objSkillsMenuOw");
+
 
 
 

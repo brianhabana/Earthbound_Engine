@@ -1,16 +1,16 @@
 /// @description Keyboard controls
 if ok {
-    if keyboard_check_pressed(vk_left) and !audio_is_playing(now_playing) {
+    if input_check_pressed("left") and !audio_is_playing(now_playing) {
         if now_playing_id > 0 {
             now_playing_id--;
             audio_play_sound(sndselect,0,0)
         }
-    } else if keyboard_check_pressed(vk_right) and !audio_is_playing(now_playing) {
+    } else if input_check_pressed("right") and !audio_is_playing(now_playing) {
         if now_playing_id < max_song_id {
             now_playing_id++;
             audio_play_sound(sndselect,0,0)
         }
-    } else if keyboard_check_pressed(global.kb_choose) and !restarting {
+    } else if inpt_check_pressed("accept") and !restarting {
         audio_play_sound(sndchoose,0,0)
         if pause {
             audio_resume_sound(now_playing)
@@ -31,7 +31,7 @@ if ok {
                 alarm[3] = 60 
             }
         }
-    } else if keyboard_check_pressed(global.kb_back) {
+    } else if input_check_pressed("cancel") {
         if !audio_is_playing(now_playing) {
             audio_play_sound(sndback,0,0)
             ok = 0;
@@ -49,3 +49,4 @@ if ok {
 ///Update song position
 write_line(string(audio_is_playing(now_playing)))
 
+show_debug_message("objSoundTest");
