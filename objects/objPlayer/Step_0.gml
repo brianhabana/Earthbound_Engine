@@ -1,10 +1,15 @@
 /// @description Movement
 depth = -y
 
-// Handle keyboard input
-dx = 0
-dy = 0
+// Calculate the change in x and y based on controller input
+dx = input_check("right") - input_check("left");
+dy = input_check("down") - input_check("up");
 
+// Debug messages to show the calculated dx and dy values
+show_debug_message("dx: " + string(dx));
+show_debug_message("dy: " + string(dy));
+
+/*
 if !global.s_strange[1] {
    dx = (keyboard_check(vk_right) - keyboard_check(vk_left));
    dy = (keyboard_check(vk_down) - keyboard_check(vk_up));
@@ -33,7 +38,7 @@ if global.debug {
     objDebug.dx = dx
     objDebug.dy = dy
 }
-
+*/
 water = position_meeting(x,y,objWater)
 ladder = position_meeting(x,y,objLadder)
 

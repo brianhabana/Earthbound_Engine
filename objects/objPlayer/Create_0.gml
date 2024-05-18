@@ -49,3 +49,7 @@ spr_walking[315,1] =  sprProtag_f_dr_d
 //Climbing
 spr_climbing[0] =   sprProtag_f_c
 
+// Create Event code for initializing variables
+canmove = 1; // Assuming 1 means the player can move initially
+face = "DOWN"; // Default face direction
+

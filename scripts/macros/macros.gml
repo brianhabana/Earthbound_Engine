@@ -23,7 +23,14 @@ function macros() {
 #macro ail_cry 1
 #macro ail_poison 2
 #macro ail_none 0
-
+#macro RIGHT 0
+#macro UP_RIGHT 45
+#macro UP 90
+#macro UP_LEFT 135
+#macro LEFT 180
+#macro DOWN_LEFT 225
+#macro DOWN 270
+#macro DOWN_RIGHT 315
 
 
 }
