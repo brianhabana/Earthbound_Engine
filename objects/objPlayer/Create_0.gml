@@ -50,4 +50,3 @@ spr_walking[315,1] =  sprProtag_f_dr_d
 spr_climbing[0] =   sprProtag_f_c
 
 
-

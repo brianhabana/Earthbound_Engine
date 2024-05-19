@@ -890,6 +890,7 @@
     {"id":{"name":"shTV","path":"shaders/shTV/shTV.yy",},},
     {"id":{"name":"bgmBadDream","path":"sounds/bgmBadDream/bgmBadDream.yy",},},
     {"id":{"name":"bgmChallenge","path":"sounds/bgmChallenge/bgmChallenge.yy",},},
+    {"id":{"name":"bgmMyNeighborTotoro","path":"sounds/bgmMyNeighborTotoro/bgmMyNeighborTotoro.yy",},},
     {"id":{"name":"bgmNull","path":"sounds/bgmNull/bgmNull.yy",},},
     {"id":{"name":"bgmYourNamePlease","path":"sounds/bgmYourNamePlease/bgmYourNamePlease.yy",},},
     {"id":{"name":"sndailment","path":"sounds/sndailment/sndailment.yy",},},

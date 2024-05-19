@@ -723,6 +723,7 @@
     {"name":"shTV","order":13,"path":"shaders/shTV/shTV.yy",},
     {"name":"bgmBadDream","order":3,"path":"sounds/bgmBadDream/bgmBadDream.yy",},
     {"name":"bgmChallenge","order":7,"path":"sounds/bgmChallenge/bgmChallenge.yy",},
+    {"name":"bgmMyNeighborTotoro","order":28,"path":"sounds/bgmMyNeighborTotoro/bgmMyNeighborTotoro.yy",},
     {"name":"bgmNull","order":1,"path":"sounds/bgmNull/bgmNull.yy",},
     {"name":"bgmYourNamePlease","order":5,"path":"sounds/bgmYourNamePlease/bgmYourNamePlease.yy",},
     {"name":"sndailment","order":51,"path":"sounds/sndailment/sndailment.yy",},

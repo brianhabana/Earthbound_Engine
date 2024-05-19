@@ -9,6 +9,10 @@ event_user(0)
 
 ///Event stuff
 
+// Play the background m// Play the background music "bgmMyNeighborTotoro" with a volume of 1 (full volume) and looping enabled
+audio_play_sound(bgmMyNeighborTotoro, 1, true);
+show_debug_message("Playing background music");
+
 ///Views
 
 __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )

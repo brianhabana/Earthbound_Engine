@@ -13,7 +13,7 @@ function init_system() {
 	global.thex_save = 0                // Last x position
 	global.they_save = 0                // Last y position
 	global.config_fname = "Settings.ini"// Settings file.  
-	global.mute = 1                     // Disable music
+	global.mute = 0 // Disable music
 	global.error = "There's nothing wrong.{ Heheh, what are you doing?"
 	global.disable_enemy_chasing = 0
 
