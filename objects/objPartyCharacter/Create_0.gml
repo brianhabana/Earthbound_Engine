@@ -55,24 +55,24 @@ spr_party3_climbing[0] = sprParty3;
 
 //Party 4
 // Alive sprites for spr_party4_walking
-spr_party4_walking[0, 0] = sprParty;
-spr_party4_walking[45, 0] = sprParty;
-spr_party4_walking[90, 0] = sprParty;
-spr_party4_walking[135, 0] = sprParty;
-spr_party4_walking[180, 0] = sprParty;
-spr_party4_walking[225, 0] = sprParty;
-spr_party4_walking[270, 0] = sprParty;
-spr_party4_walking[315, 0] = sprParty;
+spr_party4_walking[0, 0] = sprParty4;
+spr_party4_walking[45, 0] = sprParty4;
+spr_party4_walking[90, 0] = sprParty4;
+spr_party4_walking[135, 0] = sprParty4;
+spr_party4_walking[180, 0] = sprParty4;
+spr_party4_walking[225, 0] = sprParty4;
+spr_party4_walking[270, 0] = sprParty4;
+spr_party4_walking[315, 0] = sprParty4;
 
 // Dead sprites for spr_party4_walking
-spr_party4_walking[0, 1] = sprParty;
-spr_party4_walking[45, 1] = sprParty;
-spr_party4_walking[90, 1] = sprParty;
-spr_party4_walking[135, 1] = sprParty;
-spr_party4_walking[180, 1] = sprParty;
-spr_party4_walking[225, 1] = sprParty;
-spr_party4_walking[270, 1] = sprParty;
-spr_party4_walking[315, 1] = sprParty;
+spr_party4_walking[0, 1] = sprParty4;
+spr_party4_walking[45, 1] = sprParty4;
+spr_party4_walking[90, 1] = sprParty4;
+spr_party4_walking[135, 1] = sprParty4;
+spr_party4_walking[180, 1] = sprParty4;
+spr_party4_walking[225, 1] = sprParty4;
+spr_party4_walking[270, 1] = sprParty4;
+spr_party4_walking[315, 1] = sprParty4;
 
 // Climbing sprite for spr_party4_climbing
-spr_party4_climbing[0] = sprParty;
+spr_party4_climbing[0] = sprParty4;
