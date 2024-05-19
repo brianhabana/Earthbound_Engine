@@ -50,7 +50,7 @@ switch global.pl_count {
         draw_sprite(sprPortraits,global.gender*6,x+72,y+8);
         draw_sprite(sprPortraits,1,x+72+23,y+8);
         draw_sprite(sprPortraits,2,x+72+46,y+8);
-        draw_sprite(sprPortraits,2,x+72+69,y+8);
+        draw_sprite(sprPortraits,3,x+72+69,y+8);
         break;
 }
 
