@@ -29,7 +29,7 @@ function init_system() {
 	global.they = 0                     // Last y position
 	global.thedir = 270                 // Last direction
 	global.thelayer = 1                 // For an illusion of depth (not implemented)
-	global.firstroom = rmNewExample        // First room after naming
+	global.firstroom = rmExample        // First room after naming
 	global.gender = 0                   // 0 - Male; 1- Female
 	global.t_answer = 0                 // Used for questions inside timelines
 
@@ -109,8 +109,5 @@ function init_system() {
 	init_presents()                     // Init the presents and add items to them.
 	init_shops()                        // Init the shops and add items to them.
 	init_datatypes()                    // Init the types of all variables used in saved games
-	joy_init()                          // Init gamepad support
-
-
-
+	//joy_init()                          // Init gamepad support
 }

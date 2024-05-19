@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Overworld",
-    "path":"folders/Sprites/Overworld.yy",
+    "name":"Enemies",
+    "path":"folders/Sprites/Overworld/Enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

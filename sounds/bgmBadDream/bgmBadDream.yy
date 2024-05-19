@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":1,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":85.068,
   "name":"bgmBadDream",
   "parent":{
     "name":"Global",

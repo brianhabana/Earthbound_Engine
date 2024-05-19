@@ -33,12 +33,12 @@ if !global.s_strange[1] {
             break;
     }
 }
-
+*/
 if global.debug {
     objDebug.dx = dx
     objDebug.dy = dy
 }
-*/
+
 water = position_meeting(x,y,objWater)
 ladder = position_meeting(x,y,objLadder)
 

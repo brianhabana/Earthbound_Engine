@@ -151,7 +151,7 @@ if !done {
 } else {
     draw_sprite(sprProtag_f_d,cursor_image_index/2,_x[1],_y[1]-16)
     draw_window(_x[1]+16,_y[1]-40,11,4)
-    draw_sprite(sprProtag_f_d,cursor_image_index/2,_x[1],_y[1]+16)
+    draw_sprite(sprProtag_f_c,cursor_image_index/2,_x[1],_y[1]+16)
     draw_window(_x[1]+16,_y[1]-8,11,4)
     draw_sprite(sprProtag_f_d,cursor_image_index/2,_x[1],_y[1]+48)
     draw_window(_x[1]+16,_y[1]+24,11,4)

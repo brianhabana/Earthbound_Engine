@@ -33,11 +33,39 @@ if dir < 0 {
 } else if dir = 360 {
     dir = 0
 }
-
 if !position_meeting(x,y,objLadder) {
-    sprite_index = spr_walking[dir,global.dead[player_index+1]]
+    // Check player_index to determine which sprite to use
+    switch (player_index) {
+        case 1:
+            sprite_index = spr_party2_walking[dir,global.dead[player_index+1]];
+            break;
+        case 2:
+            sprite_index = spr_party3_walking[dir,global.dead[player_index+1]];
+            break;
+        case 3:
+            sprite_index = spr_party4_walking[dir,global.dead[player_index+1]];
+            break;
+        default:
+            // Handle default case if needed
+            sprite_index = spr_walking[0]; // Fallback
+            break;
+    }
 } else {
-    sprite_index = spr_climbing[0]
+    // Use corresponding party member sprite when on ladder
+    switch (player_index) {
+        case 1:
+            sprite_index = spr_party2_walking[dir,global.dead[player_index+1]];
+            break;
+        case 2:
+            sprite_index = spr_party3_walking[dir,global.dead[player_index+1]]; 
+            break;
+        case 3:
+            sprite_index = spr_party4_walking[dir,global.dead[player_index+1]]; 
+            break;
+        default:
+            sprite_index = spr_walking[0]; // Fallback
+            break;
+    }
 }
 
 if instance_exists(objPlayer) {
@@ -58,4 +86,3 @@ if instance_exists(objPlayer) {
         }
     }
 }
-
