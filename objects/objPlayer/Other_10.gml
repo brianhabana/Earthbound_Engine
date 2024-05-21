@@ -13,12 +13,16 @@ for(var c = 0;c <= 5*14;c++){
 }
 
 if room != rmGameOver {
+	
+	var xoffset = 1;
+	var yoffset = 1;
+	
     if(!instance_exists(objPartyCharacter)){
         for(c = 1;c < global.pl_count;c += 1){
             var partyCharacter = instance_create(x,y,objPartyCharacter);
             partyCharacter.player_index = c
             with(partyCharacter){
-                x = objPlayer.prevx[0]; y = objPlayer.prevy[0];
+                x = objPlayer.prevx[0]+xoffset; y = objPlayer.prevy[0]+yoffset;
                 switch player_index {
                     default:
                         //Alive

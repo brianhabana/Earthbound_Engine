@@ -2,7 +2,7 @@ function init_system() {
 	//This is a very important script, mind you
 	randomize();
 	audio_listener_orientation(-1, 0, 0, 0, 0, 0)
-
+	
 	//System
 	global.debug = 1                    // Debug mode
 	global.btdebug = 0                  // Debug mode for testers (room switching and no clip deactivated)

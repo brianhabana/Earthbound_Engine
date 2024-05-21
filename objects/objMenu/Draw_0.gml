@@ -15,7 +15,7 @@ for (var i = 1; i <= menuText[0,0]; i+=1) {
 draw_set_color(c_gray); 
 draw_set_font(global.thenfont2)
 draw_set_halign(fa_left);
-draw_text(2,240-27,string_hash_to_newline("DaddyB123"));
+draw_text(2,240-27,string_hash_to_newline("DaddyB"));
 draw_set_halign(fa_right);
 draw_text(426-2,240-27,string_hash_to_newline("#Ver. " + GM_version + "-["));
 
