@@ -2,7 +2,7 @@ if instance_number(objPlayer) > 1 { instance_destroy(); exit }
 
 dir = 270;
 direction = dir;
-image_index = 0;
+//image_index = 0;
 
 walk_speed = 2;
 water_speed = 1;

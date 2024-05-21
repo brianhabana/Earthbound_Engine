@@ -1114,6 +1114,7 @@
     {"id":{"name":"sprProtag_f_c_1","path":"sprites/sprProtag_f_c_1/sprProtag_f_c_1.yy",},},
     {"id":{"name":"sprProtag_f_c","path":"sprites/sprProtag_f_c/sprProtag_f_c.yy",},},
     {"id":{"name":"sprProtag_f_d_d","path":"sprites/sprProtag_f_d_d/sprProtag_f_d_d.yy",},},
+    {"id":{"name":"sprProtag_f_d_idle","path":"sprites/sprProtag_f_d_idle/sprProtag_f_d_idle.yy",},},
     {"id":{"name":"sprProtag_f_d","path":"sprites/sprProtag_f_d/sprProtag_f_d.yy",},},
     {"id":{"name":"sprProtag_f_dl_d","path":"sprites/sprProtag_f_dl_d/sprProtag_f_dl_d.yy",},},
     {"id":{"name":"sprProtag_f_dl","path":"sprites/sprProtag_f_dl/sprProtag_f_dl.yy",},},

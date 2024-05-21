@@ -1,8 +1,3 @@
-// Ensure image_index is set correctly at the start
-if (image_index != 0) {
-    image_index = 0;
-}
-
 if (!water) {
     // Draw shadow if applicable
     if (shadow) {

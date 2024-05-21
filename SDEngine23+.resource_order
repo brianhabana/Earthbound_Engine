@@ -945,6 +945,7 @@
     {"name":"sprProtag_f_c_1","order":22,"path":"sprites/sprProtag_f_c_1/sprProtag_f_c_1.yy",},
     {"name":"sprProtag_f_c","order":19,"path":"sprites/sprProtag_f_c/sprProtag_f_c.yy",},
     {"name":"sprProtag_f_d_d","order":1,"path":"sprites/sprProtag_f_d_d/sprProtag_f_d_d.yy",},
+    {"name":"sprProtag_f_d_idle","order":23,"path":"sprites/sprProtag_f_d_idle/sprProtag_f_d_idle.yy",},
     {"name":"sprProtag_f_d","order":3,"path":"sprites/sprProtag_f_d/sprProtag_f_d.yy",},
     {"name":"sprProtag_f_dl_d","order":11,"path":"sprites/sprProtag_f_dl_d/sprProtag_f_dl_d.yy",},
     {"name":"sprProtag_f_dl","order":13,"path":"sprites/sprProtag_f_dl/sprProtag_f_dl.yy",},
