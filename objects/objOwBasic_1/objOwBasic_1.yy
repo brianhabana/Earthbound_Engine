@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objOwBasic",
+  "%Name":"objOwBasic_1",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objOwBasic",
+  "name":"objOwBasic_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Overworld Enemies",
@@ -37,12 +37,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPHLDR_ow",
-    "path":"sprites/sprPHLDR_ow/sprPHLDR_ow.yy",
+    "name":"sprDumbEnemy",
+    "path":"sprites/sprDumbEnemy/sprDumbEnemy.yy",
   },
-  "spriteMaskId":{
-    "name":"sprEnemyMask",
-    "path":"sprites/sprEnemyMask/sprEnemyMask.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

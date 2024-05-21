@@ -1,3 +1,5 @@
+depth = -y
+
 action_inherited();
 
 

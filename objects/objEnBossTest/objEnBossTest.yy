@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlaceholderEnemy",
-    "path":"sprites/sprPlaceholderEnemy/sprPlaceholderEnemy.yy",
+    "name":"sprDumbEnemy",
+    "path":"sprites/sprDumbEnemy/sprDumbEnemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,6 @@
 /// @description  Move the player to saved position
+
+
 if global.thex > 0 and global.they > 0 and room != rmGameOver {
     x = global.thex
     y = global.they

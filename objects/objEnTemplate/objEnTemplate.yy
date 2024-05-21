@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlaceholderEnemy",
-    "path":"sprites/sprPlaceholderEnemy/sprPlaceholderEnemy.yy",
+    "name":"sprPlaceholderTemplate",
+    "path":"sprites/sprPlaceholderTemplate/sprPlaceholderTemplate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
