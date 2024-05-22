@@ -20,7 +20,7 @@ player = 1
 dx = 0
 dy = 0
 key_direction = 270;
-face = "DOWN";
+//face = "DOWN";
 
 for(var c = 0;c <= 5*100;c++){
     prevx[c] = x
@@ -30,23 +30,23 @@ for(var c = 0;c <= 5*100;c++){
 
 //Sprites
 //Alive
-spr_walking[0,0] =    sprProtag_f_r
-spr_walking[45,0] =   sprProtag_f_ur
-spr_walking[90,0] =   sprProtag_f_u
-spr_walking[135,0] =  sprProtag_f_ul
-spr_walking[180,0] =  sprProtag_f_l
-spr_walking[225,0] =  sprProtag_f_dl
-spr_walking[270,0] =  sprProtag_f_d
-spr_walking[315,0] =  sprProtag_f_dr
+spr_walking[0,0] =    sprRiver_r
+spr_walking[45,0] =   sprRiver_ur
+spr_walking[90,0] =   sprRiver_u
+spr_walking[135,0] =  sprRiver_ul
+spr_walking[180,0] =  sprRiver_l
+spr_walking[225,0] =  sprRiver_dl
+spr_walking[270,0] =  sprRiver_d
+spr_walking[315,0] =  sprRiver_dr
 //Dead
-spr_walking[0,1] =    sprProtag_f_r_d
-spr_walking[45,1] =   sprProtag_f_ur_d
-spr_walking[90,1] =   sprProtag_f_u_d
-spr_walking[135,1] =  sprProtag_f_ul_d
-spr_walking[180,1] =  sprProtag_f_l_d
-spr_walking[225,1] =  sprProtag_f_dl_d
-spr_walking[270,1] =  sprProtag_f_d_d
-spr_walking[315,1] =  sprProtag_f_dr_d
+spr_walking[0,1] =    sprRiver_d
+spr_walking[45,1] =   sprRiver_ul
+spr_walking[90,1] =   sprRiver_u
+spr_walking[135,1] =  sprRiver_ur
+spr_walking[180,1] =  sprRiver_r
+spr_walking[225,1] =  sprRiver_dr
+spr_walking[270,1] =  sprRiver_d
+spr_walking[315,1] =  sprRiver_dl
 //Climbing
 spr_climbing[0] =   sprProtag_f_c
 

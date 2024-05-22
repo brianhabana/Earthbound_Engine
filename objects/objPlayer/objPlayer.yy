@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprProtag_f_d_idle",
-    "path":"sprites/sprProtag_f_d_idle/sprProtag_f_d_idle.yy",
+    "name":"sprRiver_idle",
+    "path":"sprites/sprRiver_idle/sprRiver_idle.yy",
   },
   "spriteMaskId":{
     "name":"sprPlayerMask",
