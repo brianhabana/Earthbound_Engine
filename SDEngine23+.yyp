@@ -141,8 +141,8 @@
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Sprites/Overworld/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Jane","folderPath":"folders/Sprites/Overworld/Characters/Jane.yy","name":"Jane","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dead","folderPath":"folders/Sprites/Overworld/Characters/Jane/Dead.yy","name":"Dead","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"River","folderPath":"folders/Sprites/Overworld/Characters/River.yy","name":"River","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Party","folderPath":"folders/Sprites/Overworld/Characters/Party.yy","name":"Party","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"River","folderPath":"folders/Sprites/Overworld/Characters/River.yy","name":"River","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Sprites/Overworld/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GFX","folderPath":"folders/Sprites/Overworld/GFX.yy","name":"GFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Sprites/Overworld/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -174,7 +174,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"SDEngine23+",
   "resources":[
