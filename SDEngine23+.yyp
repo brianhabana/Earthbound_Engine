@@ -401,6 +401,7 @@
     {"id":{"name":"rmFallback","path":"rooms/rmFallback/rmFallback.yy",},},
     {"id":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
+    {"id":{"name":"rmKidsRoom","path":"rooms/rmKidsRoom/rmKidsRoom.yy",},},
     {"id":{"name":"rmMenu","path":"rooms/rmMenu/rmMenu.yy",},},
     {"id":{"name":"rmNaming","path":"rooms/rmNaming/rmNaming.yy",},},
     {"id":{"name":"rmNewExample","path":"rooms/rmNewExample/rmNewExample.yy",},},
@@ -997,6 +998,7 @@
     {"id":{"name":"bbgHacker","path":"sprites/bbgHacker/bbgHacker.yy",},},
     {"id":{"name":"bbgTrippyCGA","path":"sprites/bbgTrippyCGA/bbgTrippyCGA.yy",},},
     {"id":{"name":"bbgTrippyCGA2","path":"sprites/bbgTrippyCGA2/bbgTrippyCGA2.yy",},},
+    {"id":{"name":"RiverRoom","path":"sprites/RiverRoom/RiverRoom.yy",},},
     {"id":{"name":"spr_continue","path":"sprites/spr_continue/spr_continue.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"spr_iconfont","path":"sprites/spr_iconfont/spr_iconfont.yy",},},
@@ -1204,6 +1206,7 @@
     {"roomId":{"name":"rmGameOver","path":"rooms/rmGameOver/rmGameOver.yy",},},
     {"roomId":{"name":"rmFallback","path":"rooms/rmFallback/rmFallback.yy",},},
     {"roomId":{"name":"rmBgTest","path":"rooms/rmBgTest/rmBgTest.yy",},},
+    {"roomId":{"name":"rmKidsRoom","path":"rooms/rmKidsRoom/rmKidsRoom.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

@@ -79,6 +79,7 @@
     {"name":"inst_2F2A3B23","path":"rooms/rmNewExample/rmNewExample.yy",},
     {"name":"inst_66671687","path":"rooms/rmNewExample/rmNewExample.yy",},
     {"name":"inst_2B3878EF","path":"rooms/rmNewExample/rmNewExample.yy",},
+    {"name":"inst_45008627","path":"rooms/rmNewExample/rmNewExample.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -156,6 +157,7 @@
         {"$GMRInstance":"","%Name":"inst_2F2A3B23","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F2A3B23","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":288.0,"y":48.0,},
         {"$GMRInstance":"","%Name":"inst_66671687","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66671687","objectId":{"name":"objOwBasic_1","path":"objects/objOwBasic_1/objOwBasic_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":224.0,},
         {"$GMRInstance":"","%Name":"inst_2B3878EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B3878EF","objectId":{"name":"objOwBasic_1","path":"objects/objOwBasic_1/objOwBasic_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":192.0,},
+        {"$GMRInstance":"","%Name":"inst_45008627","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45008627","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":640.0,"y":144.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":64,"TileCompressedData":[
           -201,-2147483648,4,820,821,870,871,-60,-2147483648,4,870,871,920,921,-60,-2147483648,2,920,921,-32,-2147483648,
