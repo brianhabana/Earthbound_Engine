@@ -1,6 +1,6 @@
-_x = 680;
-_y = 180;
-_room = rmNewExample;
+_x = 131;
+_y = 162;
+_room = rmJackAndJill;
 direction = 270; // Assuming this is the direction the player should face when they enter the new room
 effect_leave = tr_fade;
 effect_enter = tr_fade;

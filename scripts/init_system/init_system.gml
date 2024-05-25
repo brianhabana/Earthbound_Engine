@@ -29,7 +29,7 @@ function init_system() {
 	global.they = 0                     // Last y position
 	global.thedir = 270                 // Last direction
 	global.thelayer = 1                 // For an illusion of depth (not implemented)
-	global.firstroom = rmExample        // First room after naming
+	global.firstroom = rmKidsRoom        // First room after naming
 	global.gender = 0                   // 0 - Male; 1- Female
 	global.t_answer = 0                 // Used for questions inside timelines
 
