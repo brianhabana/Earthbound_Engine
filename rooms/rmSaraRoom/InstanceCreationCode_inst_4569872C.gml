@@ -1,4 +1,4 @@
-_x = 131;
+_x = 140;
 _y = 162;
 _room = rmJackAndJill;
 direction = 270; // Assuming this is the direction the player should face when they enter the new room
